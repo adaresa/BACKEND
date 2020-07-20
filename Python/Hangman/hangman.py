@@ -35,7 +35,7 @@ for i in range(26):
 # GAME VARIABLES
 play_more = True
 hangman_status = 0
-words = ["HELLO", "PYTHON", "PYGAME", "DEVELOPER"]
+words = ["HIRE ME RIOT"]
 word = random.choice(words)
 guessed = []
 
@@ -56,12 +56,14 @@ def draw():
     # DRAW WORD
     display_word = ""
     for letter in word:
+        if letter == " ":
+            guessed.append(letter)
         if letter in guessed:
             display_word += letter + " "
         else:
             display_word += "_ "
     text = WORD_FONT.render(display_word, 1, BLACK)
-    win.blit(text, (400, 200))
+    win.blit(text, (370, 200))
 
     # DRAW BUTTONS
     for letter in letters:
@@ -74,17 +76,17 @@ def draw():
     win.blit(images[hangman_status], (150, 100))
     pygame.display.update()
 
-# def menu():
-#     # DRAW TITLE TEXT
-#     win.fill(WHITE)
-#     text = TITLE_FONT.render("PLAY MORE?", 1, BLACK)
-#     win.blit(text, (WIDTH/2 - text.get_width()/2, 60))
+def menu():
+    # DRAW TITLE TEXT
+    win.fill(WHITE)
+    text = TITLE_FONT.render("PLAY MORE?", 1, BLACK)
+    win.blit(text, (WIDTH/2 - text.get_width()/2, 60))
 
-#     # DRAW BUTTONS
-#     pygame.draw.rect(win, GREEN,((WIDTH/2) - 250,200,200,100))
-#     pygame.draw.rect(win, RED,((WIDTH/2) + 50,200,200,100))
+    # DRAW BUTTONS
+    pygame.draw.rect(win, GREEN,((WIDTH/2) - 250,200,200,100)) #color, pos x, pos y, width, height
+    pygame.draw.rect(win, RED,((WIDTH/2) + 50,200,200,100))
 
-#     pygame.display.update()
+    pygame.display.update()
 
 
 def display_message(message):
@@ -96,13 +98,18 @@ def display_message(message):
     pygame.display.update()
     pygame.time.delay(5000)
 
-# def ask_more():
-#     FPS = 30
-#     clock = pygame.time.Clock()
-#     run = True
-#     while run:
-#         clock.tick(FPS)
-#         menu()
+def ask_more():
+    FPS = 30
+    clock = pygame.time.Clock()
+    run = True
+    while run:
+        clock.tick(FPS)
+        menu()
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                run = False
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                m_x, m_y = pygame.mouse.get_pos()
 
 
 def main():
@@ -139,7 +146,7 @@ def main():
             display_message("You WON!")
             break
         if hangman_status == 6:
-            display_message("You lost!")
+            display_message("Get good Kasper ):")
             break
 
 
