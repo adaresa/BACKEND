@@ -11,11 +11,11 @@ pygame.display.set_caption("SNAKE GAME BY ADARESA")
 pygame.display.update()
 
 # COLORS
-ORANGE = (255,123,7)
-BLACK = (0,0,0)
-RED = (213,50,80)
-GREEN = (34,139,34)
-BLUE = (10,53,73)
+ORANGE = (255, 123, 7)
+BLACK = (0, 0, 0)
+RED = (213, 50, 80)
+GREEN = (34, 139, 34)
+BLUE = (10, 53, 73)
 
 # GAME VARIABLES
 snake_block = 50
@@ -23,12 +23,15 @@ snake_list = []
 snake_speed = 7
 
 # CREATE SNAKE
+
+
 def snake(snake_block, snake_list):
     count = 1
     for i in snake_list:
         # DRAW FACE IF HEAD PIECE
         if count == len(snake_list):
-            pygame.draw.rect(win, (50,205,50), [i[0], i[1], snake_block, snake_block])
+            pygame.draw.rect(win, (50, 205, 50), [
+                             i[0], i[1], snake_block, snake_block])
             radius = 5
             circleMiddle = (i[0] + 15, i[1] + 16)
             circleMiddle2 = (i[0] + 37, i[1] + 16)
@@ -36,10 +39,13 @@ def snake(snake_block, snake_list):
             pygame.draw.circle(win, BLACK, circleMiddle2, radius)
             pygame.draw.rect(win, RED, [i[0] + 13, i[1] + 30, 25, 7])
         else:
-            pygame.draw.rect(win, GREEN, [i[0], i[1], snake_block, snake_block])
+            pygame.draw.rect(
+                win, GREEN, [i[0], i[1], snake_block, snake_block])
         count += 1
 
 # MAKE THE GRID
+
+
 def drawGrid():
     gap = snake_block
     times = int(WIDTH / snake_block)
@@ -52,6 +58,8 @@ def drawGrid():
         pygame.draw.line(win, BLUE, (0, y), (1250, y))
 
 # MAIN
+
+
 def snakegame():
     run = True
     end = False
@@ -74,19 +82,21 @@ def snakegame():
         while end == True:
             win.fill(BLACK)
             font_style = pygame.font.SysFont("comicsans", 45)
-            msg = font_style.render("You lost! Press P to play again", True, RED)
+            msg = font_style.render(
+                "You lost! Press P to play again", True, RED)
             win.blit(msg, [WIDTH / 6, HEIGHT / 3])
             # DISPLAY THE SCORE
             score = length_of_snake - 1
             score_font = pygame.font.SysFont("comicsans", 65)
-            value = score_font.render("Your Score: " + str(score), True, ORANGE)
+            value = score_font.render(
+                "Your Score: " + str(score), True, ORANGE)
             win.blit(value, [WIDTH / 3, HEIGHT / 5])
             pygame.display.update()
             # BUTTON PRESSES (p to restart game)
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
-                    run = False # game still open
-                    end = False # game over
+                    run = False  # game still open
+                    end = False  # game over
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_p:
                         snakegame()
@@ -132,11 +142,15 @@ def snakegame():
         snake(snake_block, snake_list)
         # EATING FOOD INCREASES SIZE AND CREATES NEW FOOD
         if x1 == foodx and y1 == foody:
-            foodx = round(random.randrange(0, WIDTH - snake_block) / 50.0) * 50.0
-            foody = round(random.randrange(0, HEIGHT - snake_block) / 50.0) * 50.0
+            foodx = round(random.randrange(
+                0, WIDTH - snake_block) / 50.0) * 50.0
+            foody = round(random.randrange(
+                0, HEIGHT - snake_block) / 50.0) * 50.0
             length_of_snake += 1
         drawGrid()
         pygame.display.update()
     pygame.quit()
     quit()
+
+
 snakegame()

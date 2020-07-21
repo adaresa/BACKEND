@@ -16,7 +16,8 @@ TITLE_FONT = pygame.font.SysFont("comicsans", 70)
 # LOAD IMAGES
 images = []
 for i in range(7):
-    image = pygame.image.load("C:\\Users\\kaspe\\Documents\\GitHub\\BACKEND\\Python\\Hangman\\images\\hangman" + str(i) + ".png")
+    image = pygame.image.load(
+        "C:\\Users\\kaspe\\Documents\\GitHub\\BACKEND\\Python\\Hangman\\images\\hangman" + str(i) + ".png")
     images.append(image)
 
 # LETTER BUTTONS
@@ -36,7 +37,8 @@ for i in range(26):
 play_more = True
 hangman_status = 0
 words = []
-open_file = open("C:\\Users\\kaspe\\Documents\\GitHub\\BACKEND\\Python\\Hangman\\words\\wordlist.txt", "r")
+open_file = open(
+    "C:\\Users\\kaspe\\Documents\\GitHub\\BACKEND\\Python\\Hangman\\words\\wordlist.txt", "r")
 contents = open_file.readlines()
 for i in range(len(contents)):
     words.append(contents[i].strip("\n"))
@@ -45,10 +47,11 @@ word = random.choice(words).upper()
 guessed = []
 
 # COLORS
-WHITE = (255,255,255)
-BLACK = (0,0,0)
-GREEN = (0,255,0)
-RED = (255,0,0)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+GREEN = (0, 255, 0)
+RED = (255, 0, 0)
+
 
 def draw():
     win.fill(WHITE)
@@ -74,10 +77,12 @@ def draw():
         if visible:
             pygame.draw.circle(win, BLACK, (x, y), RADIUS, 3)
             text = LETTER_FONT.render(ltr, 1, BLACK)
-            win.blit(text, (x - text.get_width() / 2, y - text.get_height() / 2))
+            win.blit(text, (x - text.get_width() /
+                            2, y - text.get_height() / 2))
 
     win.blit(images[hangman_status], (150, 100))
     pygame.display.update()
+
 
 def display_message(message):
     # WIN/LOSE SCREEN
@@ -100,8 +105,9 @@ def display_message(message):
                 reset()
                 run = False
 
+
 def reset():
-    #RESET GAME WHEN PLAYING AGAIN
+    # RESET GAME WHEN PLAYING AGAIN
     global hangman_status
     global word
     global words
@@ -118,6 +124,7 @@ def reset():
         x = startx + RADIUS + ((RADIUS * 2 + GAP) * (i % 13))
         y = starty + ((i // 13) * (GAP + RADIUS * 2))
         letters.append([x, y, chr(A + i), True])
+
 
 def main():
     global hangman_status
@@ -142,13 +149,13 @@ def main():
                             guessed.append(ltr)
                             if ltr not in word:
                                 hangman_status += 1
-        
+
         won = True
         for letter in word:
             if letter not in guessed:
                 won = False
                 break
-        
+
         if won:
             draw()
             pygame.time.delay(1500)
@@ -158,6 +165,7 @@ def main():
             draw()
             pygame.time.delay(1500)
             display_message("You Lost, click to play again...")
+
 
 main()
 pygame.quit()
