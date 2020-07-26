@@ -1,4 +1,5 @@
 class Trainer:
+    # POKEMON TRAINER CLASS - GIVE THEM NAME, LIST OF POKEMON, NUM OF POTIONS, INDEX OF ACTIVE POKEMON
     def __init__(self, name, pokemons, potions, current_pokemon):
         self.name = name
         self.pokemons = pokemons
@@ -6,6 +7,7 @@ class Trainer:
         self.current_pokemon = current_pokemon
     
     
+    # USE A POTION TO HEAL ACTIVE POKEMON
     def use_potion(self):
         if self.potions != 0:
             self.potions -= 1
@@ -13,8 +15,9 @@ class Trainer:
             self.pokemons[self.current_pokemon].gain_health(self.pokemons[self.current_pokemon].maxhp * .7)
         else:
             print("You are out of potions!\n")
+     
             
-            
+    # ATTACK ANOTHER TRAINERS ACTIVE POKEMON, OTHER TRAINER AS INPUT
     def attack_other_trainer(self, other_trainer):
         their_pokemon = other_trainer.pokemons[other_trainer.current_pokemon]
         my_pokemon = self.pokemons[self.current_pokemon]
@@ -22,6 +25,7 @@ class Trainer:
         Pokemon.attack(my_pokemon, their_pokemon)
     
     
+    # SWITCH OUT THE ACTIVE POKEMON, INDEX OF NEW POKEMON AS INPUT
     def switch_pokemon(self, num_of_pokemon):
         if self.current_pokemon == num_of_pokemon:
             print("%s is already active!" % (self.pokemons[self.current_pokemon].name))
@@ -33,6 +37,7 @@ class Trainer:
         
         
 class Pokemon:
+    # CLASS FOR POKEMON - GIVE THEM NAME, LEVEL(damage), TYPE(fire, grass, water), MAX HEALTH POINTS AMOUNT, CURRENT HEALTH POINTS AMOUNT, DEAD/ALIVE BOOLEAN
     def __init__(self, name, level, poke_type, maxhp, hp, knocked_out):
         self.name = name
         self.level = level
@@ -42,6 +47,7 @@ class Pokemon:
         self.knocked_out = knocked_out
     
     
+    # CALCULATE LOSING POKMEMONS HEALTH, TAKE AMOUNT OF HEALTH LOST AS INPUT
     def lose_health(self, amount):
         self.hp -= amount
         if self.hp <= 0:
@@ -50,6 +56,7 @@ class Pokemon:
         print("%s lost %d health and now has %d health\n" % (self.name, amount, self.hp))
         
     
+    # CALCULATE GAINING POKMEMONS HEALTH, TAKE AMOUNT OF HEALTH GAINED AS INPUT
     def gain_health(self, amount):
         self.hp += amount
         if self.hp >= self.maxhp:
@@ -57,8 +64,10 @@ class Pokemon:
         print("%s regained %d health and now has %d health\n" % (self.name, amount, self.hp))
         
         
+    # POKEMON HAS BEEN KNOCKED OUT (0 health)
     def knock_out(self):
         self.knocked_out = True
+        self.hp = 0
         print("%s has been knocked out!" % (self.name))
         
 
@@ -68,6 +77,7 @@ class Pokemon:
         print("%s has been revived and now has %d health!\n" % (self.name, self.hp))
         
     
+    # ATTACK ANOTHER POKEMON, OTHER POKEMON AS INPUT
     def attack(self, other_pokemon):
         if self.knock_out == False:
             print("%s is knocked out and unable to attack!\n" % (self.name))
