@@ -26,6 +26,7 @@ def get_input():
       letter = choices[i]
       print("Enter %s for %s" % (letter, name))
     user_input = input("")
+    user_input = user_input.upper()
     if user_input in choices:
       for i in range(len(stacks)):
         if user_input == choices[i]:

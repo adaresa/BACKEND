@@ -17,7 +17,7 @@ TITLE_FONT = pygame.font.SysFont("comicsans", 70)
 images = []
 for i in range(7):
     image = pygame.image.load(
-        "C:\\Users\\kaspe\\Documents\\GitHub\\BACKEND\\Python\\Hangman\\images\\hangman" + str(i) + ".png")
+        r"C:\Users\kaspe\Documents\GitHub\BACKEND\Python\Hangman\images\hangman" + str(i) + ".png")
     images.append(image)
 
 # LETTER BUTTONS
@@ -38,7 +38,7 @@ play_more = True
 hangman_status = 0
 words = []
 open_file = open(
-    "C:\\Users\\kaspe\\Documents\\GitHub\\BACKEND\\Python\\Hangman\\words\\wordlist.txt", "r")
+    r"C:\Users\kaspe\Documents\GitHub\BACKEND\Python\Hangman\words\wordlist.txt", "r")
 contents = open_file.readlines()
 for i in range(len(contents)):
     words.append(contents[i].strip("\n"))
