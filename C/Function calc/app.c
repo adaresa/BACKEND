@@ -40,7 +40,7 @@ int main(){
       X[i+1] = X[i] + H;
    }
    n = i;
-   printf("X      | Y\n");
+   printf("\nX      | Y\n");
    for(i=0;i<n;i++){
       if(X[i] == 0.0){
          printf("%.3lf  | puudub\n", X[i]);
@@ -53,7 +53,7 @@ int main(){
       }
    }
    if(i < 14){
-      printf("X(%.3lf)-i Y v22rtus on madalam kui alampiir\n", X[i]);
+      printf("X(%.3lf)-i Y(%.3lf) v22rtus on madalam kui alampiir YM = %.3lf\n", X[i], Y[i], YM);
    }
    return 0;
 }
