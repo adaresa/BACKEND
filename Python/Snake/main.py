@@ -5,7 +5,7 @@ import random
 # SETUP DISPLAY
 pygame.init()
 clock = pygame.time.Clock()
-WIDTH, HEIGHT = 750, 500
+WIDTH, HEIGHT = 750, 500 # DEFAULT 750, 500
 win = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("SNAKE GAME BY ADARESA")
 pygame.display.update()
@@ -14,30 +14,26 @@ pygame.display.update()
 ORANGE = (255, 123, 7)
 BLACK = (0, 0, 0)
 RED = (213, 50, 80)
-GREEN = (34, 139, 34)
+GREEN = (34, 200, 34)
 BLUE = (10, 53, 73)
 
 # GAME VARIABLES
 snake_block = 50
 snake_list = []
-snake_speed = 7
+snake_speed = 7 # SPEED OF SNAKE
+face = pygame.image.load(r"C:\Users\kaspe\Documents\GitHub\BACKEND\Python\Snake\images\face.png")
+face = pygame.transform.scale(face, (70, 70))
 
 # CREATE SNAKE
 def snake(snake_block, snake_list):
     count = 1
     for i in snake_list:
         # DRAW FACE IF HEAD PIECE
-        if count == len(snake_list):
-            pygame.draw.rect(win, (50, 205, 50), [
-                             i[0], i[1], snake_block, snake_block])
-            circleMiddle = (i[0] + 15, i[1] + 16)
-            circleMiddle2 = (i[0] + 37, i[1] + 16)
-            pygame.draw.circle(win, BLACK, circleMiddle, 5)
-            pygame.draw.circle(win, BLACK, circleMiddle2, 5)
-            pygame.draw.rect(win, RED, [i[0] + 13, i[1] + 30, 25, 7])
-        else:
+        if count != len(snake_list):
             pygame.draw.rect(
                 win, GREEN, [i[0], i[1], snake_block, snake_block])
+        else:
+            win.blit(face, (i[0]-10, i[1]-10))
         count += 1
 
 # MAKE THE GRID
@@ -53,8 +49,6 @@ def drawGrid():
         pygame.draw.line(win, BLUE, (0, y), (WIDTH, y))
 
 # MAIN
-
-
 def snakegame():
     run = True
     end = False
