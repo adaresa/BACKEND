@@ -1,0 +1,350 @@
+[31m 
+1. PART TESTS
+ [0m		[35m 
+2. (N=35) Printing source structure [0m
+1) Bucdp Lynqc 316985719 17:43:36
+2) Ccsvflv Rftj 258186307 17:43:36
+3) Dldo Gjtls 155087338 17:43:36
+4) Gnm Glgoc 287197128 17:43:36
+5) Gtmqw Scjbeiltp 101110100 17:43:36
+6) Hnd Bxyskgdf 178442660 17:43:36
+7) Hfortru Fylusf 362096379 17:43:36
+8) Hnveig Xnmyi 145409657 17:43:36
+9) Ilgl Beh 303296967 17:43:36
+10) Io Qhoq 119654359 17:43:36
+11) Iihxsknx Vvo 36666300 17:43:36
+12) Kkclckqxw Woycq 135754198 17:43:36
+13) Lqllhxpy Tsxpuwc 216297837 17:43:36
+14) Mxfsf Mxfsf 4455511 17:43:36
+15) Nsbwhyfvm Pvuipq 129309818 17:43:36
+16) Nel Sfwes 123665430 17:43:36
+17) Orufxed Gmuglhu 348407627 17:43:36
+18) Pshxovow Hjulwwdje 320207909 17:43:36
+19) Pkdrs Ilgl 64866018 17:43:36
+20) Pscl Lmx 17355382 17:43:36
+21) Pfekkihk Mwffdsvc 245308658 17:43:36
+22) Qxoyoogl Qxoyoogl 422218 17:43:36
+23) Rqbbx Yjpy 39088498 17:43:36
+24) Scjbeiltp Nboph 333107780 17:43:36
+25) Sqdsb Pkdrs 16533168 17:43:36
+26) Sq Siikukqxy 72121501 17:43:36
+27) Shmv Spqeo 110787781 17:43:36
+28) Tstcgn Qvrdm 310552450 17:43:36
+29) Tdoelp Vrpxninou 174420478 17:43:36
+30) Tmscby Xnc 230008811 17:43:36
+31) Ugxski Ngmurp 213075647 17:43:36
+32) Umjvyhxqi Xbbpj 23799762 17:43:36
+33) Vvo Wmxl 326652289 17:43:36
+34) Yypifwud Esctv 61643828 17:43:36
+35) Ypuwquch Udwfejddo 197775800 17:43:36
+[35m 
+
+3.1. Adding objects [0m
+Successfully added Dx Gz
+Successfully added Dx Ga
+Successfully added Db Aa
+Successfully added Dk Za
+Successfully added Dr Wa
+Successfully added Aa Aa
+Successfully added Ab Ba
+Successfully added Za Aa
+Successfully added Za Ab
+Successfully added Za Ba
+Successfully added Wx Xa
+Successfully added Wx Aa
+Error when adding zb Kk
+Error when adding Zc ca
+Error when adding Dr Wa
+Error when adding ZB kk
+Error when adding Fa
+Error when adding Fa_Fa
+[35m 
+
+3.2. Printing objects [0m
+1) Aa Aa 9244 17:43:36
+2) Ab Ba 2897 17:43:36
+3) Bucdp Lynqc 316985719 17:43:36
+4) Ccsvflv Rftj 258186307 17:43:36
+5) Db Aa 14730 17:43:36
+6) Dldo Gjtls 155087338 17:43:36
+7) Dx Gz 27881 17:43:36
+8) Dx Ga 27591 17:43:36
+9) Dr Wa 531 17:43:36
+10) Dk Za 1498 17:43:36
+11) Gnm Glgoc 287197128 17:43:36
+12) Gtmqw Scjbeiltp 101110100 17:43:36
+13) Hnd Bxyskgdf 178442660 17:43:36
+14) Hfortru Fylusf 362096379 17:43:36
+15) Hnveig Xnmyi 145409657 17:43:36
+16) Ilgl Beh 303296967 17:43:36
+17) Io Qhoq 119654359 17:43:36
+18) Iihxsknx Vvo 36666300 17:43:36
+19) Kkclckqxw Woycq 135754198 17:43:36
+20) Lqllhxpy Tsxpuwc 216297837 17:43:36
+21) Mxfsf Mxfsf 4455511 17:43:36
+22) Nsbwhyfvm Pvuipq 129309818 17:43:36
+23) Nel Sfwes 123665430 17:43:36
+24) Orufxed Gmuglhu 348407627 17:43:36
+25) Pshxovow Hjulwwdje 320207909 17:43:36
+26) Pkdrs Ilgl 64866018 17:43:36
+27) Pscl Lmx 17355382 17:43:36
+28) Pfekkihk Mwffdsvc 245308658 17:43:36
+29) Qxoyoogl Qxoyoogl 422218 17:43:36
+30) Rqbbx Yjpy 39088498 17:43:36
+31) Scjbeiltp Nboph 333107780 17:43:36
+32) Sqdsb Pkdrs 16533168 17:43:36
+33) Sq Siikukqxy 72121501 17:43:36
+34) Shmv Spqeo 110787781 17:43:36
+35) Tstcgn Qvrdm 310552450 17:43:36
+36) Tdoelp Vrpxninou 174420478 17:43:36
+37) Tmscby Xnc 230008811 17:43:36
+38) Ugxski Ngmurp 213075647 17:43:36
+39) Umjvyhxqi Xbbpj 23799762 17:43:36
+40) Vvo Wmxl 326652289 17:43:36
+41) Wx Aa 16891 17:43:36
+42) Wx Xa 11126 17:43:36
+43) Yypifwud Esctv 61643828 17:43:36
+44) Ypuwquch Udwfejddo 197775800 17:43:36
+45) Za Aa 31093 17:43:36
+46) Za Ab 24753 17:43:36
+47) Za Ba 32565 17:43:36
+[35m 
+
+4.1. Removing objects [0m
+Successfully removed Dx Gz
+Successfully removed Dx Ga
+Successfully removed Db Aa
+Successfully removed Dk Za
+Successfully removed Dr Wa
+Successfully removed Aa Aa
+Successfully removed Ab Ba
+Successfully removed Za Aa
+Successfully removed Za Ab
+Successfully removed Za Ba
+Successfully removed Wx Xa
+Successfully removed Wx Aa
+Error when removing zb Kk
+Error when removing Zc ca
+Error when removing Dr Wa
+Error when removing ZB kk
+Error when removing Fa
+Error when removing Fa_Fa
+[35m 
+
+4.2. Printing objects [0m
+1) Bucdp Lynqc 316985719 17:43:36
+2) Ccsvflv Rftj 258186307 17:43:36
+3) Dldo Gjtls 155087338 17:43:36
+4) Gnm Glgoc 287197128 17:43:36
+5) Gtmqw Scjbeiltp 101110100 17:43:36
+6) Hnd Bxyskgdf 178442660 17:43:36
+7) Hfortru Fylusf 362096379 17:43:36
+8) Hnveig Xnmyi 145409657 17:43:36
+9) Ilgl Beh 303296967 17:43:36
+10) Io Qhoq 119654359 17:43:36
+11) Iihxsknx Vvo 36666300 17:43:36
+12) Kkclckqxw Woycq 135754198 17:43:36
+13) Lqllhxpy Tsxpuwc 216297837 17:43:36
+14) Mxfsf Mxfsf 4455511 17:43:36
+15) Nsbwhyfvm Pvuipq 129309818 17:43:36
+16) Nel Sfwes 123665430 17:43:36
+17) Orufxed Gmuglhu 348407627 17:43:36
+18) Pshxovow Hjulwwdje 320207909 17:43:36
+19) Pkdrs Ilgl 64866018 17:43:36
+20) Pscl Lmx 17355382 17:43:36
+21) Pfekkihk Mwffdsvc 245308658 17:43:36
+22) Qxoyoogl Qxoyoogl 422218 17:43:36
+23) Rqbbx Yjpy 39088498 17:43:36
+24) Scjbeiltp Nboph 333107780 17:43:36
+25) Sqdsb Pkdrs 16533168 17:43:36
+26) Sq Siikukqxy 72121501 17:43:36
+27) Shmv Spqeo 110787781 17:43:36
+28) Tstcgn Qvrdm 310552450 17:43:36
+29) Tdoelp Vrpxninou 174420478 17:43:36
+30) Tmscby Xnc 230008811 17:43:36
+31) Ugxski Ngmurp 213075647 17:43:36
+32) Umjvyhxqi Xbbpj 23799762 17:43:36
+33) Vvo Wmxl 326652289 17:43:36
+34) Yypifwud Esctv 61643828 17:43:36
+35) Ypuwquch Udwfejddo 197775800 17:43:36
+[31m
+2. PART TESTS
+[0m		[35m 
+2. (N=35) Printing source structure [0m
+1) Bucdp Lynqc 316985719 17:43:36
+2) Ccsvflv Rftj 258186307 17:43:36
+3) Dldo Gjtls 155087338 17:43:36
+4) Gnm Glgoc 287197128 17:43:36
+5) Gtmqw Scjbeiltp 101110100 17:43:36
+6) Hnd Bxyskgdf 178442660 17:43:36
+7) Hfortru Fylusf 362096379 17:43:36
+8) Hnveig Xnmyi 145409657 17:43:36
+9) Ilgl Beh 303296967 17:43:36
+10) Io Qhoq 119654359 17:43:36
+11) Iihxsknx Vvo 36666300 17:43:36
+12) Kkclckqxw Woycq 135754198 17:43:36
+13) Lqllhxpy Tsxpuwc 216297837 17:43:36
+14) Mxfsf Mxfsf 4455511 17:43:36
+15) Nsbwhyfvm Pvuipq 129309818 17:43:36
+16) Nel Sfwes 123665430 17:43:36
+17) Orufxed Gmuglhu 348407627 17:43:36
+18) Pshxovow Hjulwwdje 320207909 17:43:36
+19) Pkdrs Ilgl 64866018 17:43:36
+20) Pscl Lmx 17355382 17:43:36
+21) Pfekkihk Mwffdsvc 245308658 17:43:36
+22) Qxoyoogl Qxoyoogl 422218 17:43:36
+23) Rqbbx Yjpy 39088498 17:43:36
+24) Scjbeiltp Nboph 333107780 17:43:36
+25) Sqdsb Pkdrs 16533168 17:43:36
+26) Sq Siikukqxy 72121501 17:43:36
+27) Shmv Spqeo 110787781 17:43:36
+28) Tstcgn Qvrdm 310552450 17:43:36
+29) Tdoelp Vrpxninou 174420478 17:43:36
+30) Tmscby Xnc 230008811 17:43:36
+31) Ugxski Ngmurp 213075647 17:43:36
+32) Umjvyhxqi Xbbpj 23799762 17:43:36
+33) Vvo Wmxl 326652289 17:43:36
+34) Yypifwud Esctv 61643828 17:43:36
+35) Ypuwquch Udwfejddo 197775800 17:43:36
+[35m 
+
+3. Creating and printing binary tree [0m
+Qxoyoogl Qxoyoogl 422218 17:43:36
+Mxfsf Mxfsf 4455511 17:43:36
+Sqdsb Pkdrs 16533168 17:43:36
+Pscl Lmx 17355382 17:43:36
+Umjvyhxqi Xbbpj 23799762 17:43:36
+Iihxsknx Vvo 36666300 17:43:36
+Rqbbx Yjpy 39088498 17:43:36
+Yypifwud Esctv 61643828 17:43:36
+Pkdrs Ilgl 64866018 17:43:36
+Sq Siikukqxy 72121501 17:43:36
+Gtmqw Scjbeiltp 101110100 17:43:36
+Shmv Spqeo 110787781 17:43:36
+Io Qhoq 119654359 17:43:36
+Nel Sfwes 123665430 17:43:36
+Nsbwhyfvm Pvuipq 129309818 17:43:36
+Kkclckqxw Woycq 135754198 17:43:36
+Hnveig Xnmyi 145409657 17:43:36
+Dldo Gjtls 155087338 17:43:36
+Tdoelp Vrpxninou 174420478 17:43:36
+Hnd Bxyskgdf 178442660 17:43:36
+Ypuwquch Udwfejddo 197775800 17:43:36
+Ugxski Ngmurp 213075647 17:43:36
+Lqllhxpy Tsxpuwc 216297837 17:43:36
+Tmscby Xnc 230008811 17:43:36
+Pfekkihk Mwffdsvc 245308658 17:43:36
+Ccsvflv Rftj 258186307 17:43:36
+Gnm Glgoc 287197128 17:43:36
+Ilgl Beh 303296967 17:43:36
+Tstcgn Qvrdm 310552450 17:43:36
+Bucdp Lynqc 316985719 17:43:36
+Pshxovow Hjulwwdje 320207909 17:43:36
+Vvo Wmxl 326652289 17:43:36
+Scjbeiltp Nboph 333107780 17:43:36
+Orufxed Gmuglhu 348407627 17:43:36
+Hfortru Fylusf 362096379 17:43:36
+[35m 
+
+4. Deleting root and printing binary tree [0m
+Successfully deleted 316985719
+Qxoyoogl Qxoyoogl 422218 17:43:36
+Mxfsf Mxfsf 4455511 17:43:36
+Sqdsb Pkdrs 16533168 17:43:36
+Pscl Lmx 17355382 17:43:36
+Umjvyhxqi Xbbpj 23799762 17:43:36
+Iihxsknx Vvo 36666300 17:43:36
+Rqbbx Yjpy 39088498 17:43:36
+Yypifwud Esctv 61643828 17:43:36
+Pkdrs Ilgl 64866018 17:43:36
+Sq Siikukqxy 72121501 17:43:36
+Gtmqw Scjbeiltp 101110100 17:43:36
+Shmv Spqeo 110787781 17:43:36
+Io Qhoq 119654359 17:43:36
+Nel Sfwes 123665430 17:43:36
+Nsbwhyfvm Pvuipq 129309818 17:43:36
+Kkclckqxw Woycq 135754198 17:43:36
+Hnveig Xnmyi 145409657 17:43:36
+Dldo Gjtls 155087338 17:43:36
+Tdoelp Vrpxninou 174420478 17:43:36
+Hnd Bxyskgdf 178442660 17:43:36
+Ypuwquch Udwfejddo 197775800 17:43:36
+Ugxski Ngmurp 213075647 17:43:36
+Lqllhxpy Tsxpuwc 216297837 17:43:36
+Tmscby Xnc 230008811 17:43:36
+Pfekkihk Mwffdsvc 245308658 17:43:36
+Ccsvflv Rftj 258186307 17:43:36
+Gnm Glgoc 287197128 17:43:36
+Ilgl Beh 303296967 17:43:36
+Tstcgn Qvrdm 310552450 17:43:36
+Pshxovow Hjulwwdje 320207909 17:43:36
+Vvo Wmxl 326652289 17:43:36
+Scjbeiltp Nboph 333107780 17:43:36
+Orufxed Gmuglhu 348407627 17:43:36
+Hfortru Fylusf 362096379 17:43:36
+[35m 
+
+5. N = 10 [0m[35m 
+6. Printing source structure [0m
+1) Ccsvflv Rftj 258186307 17:43:36
+2) Gtmqw Scjbeiltp 101110100 17:43:36
+3) Hnveig Xnmyi 145409657 17:43:36
+4) Iihxsknx Vvo 36666300 17:43:36
+5) Mxfsf Mxfsf 4455511 17:43:36
+6) Pkdrs Ilgl 64866018 17:43:36
+7) Qxoyoogl Qxoyoogl 422218 17:43:36
+8) Sqdsb Pkdrs 16533168 17:43:36
+9) Vvo Wmxl 326652289 17:43:36
+10) Ypuwquch Udwfejddo 197775800 17:43:36
+[35m 
+
+7. Creating and printing binary tree [0m
+Qxoyoogl Qxoyoogl 422218 17:43:36
+Mxfsf Mxfsf 4455511 17:43:36
+Sqdsb Pkdrs 16533168 17:43:36
+Iihxsknx Vvo 36666300 17:43:36
+Pkdrs Ilgl 64866018 17:43:36
+Gtmqw Scjbeiltp 101110100 17:43:36
+Hnveig Xnmyi 145409657 17:43:36
+Ypuwquch Udwfejddo 197775800 17:43:36
+Ccsvflv Rftj 258186307 17:43:36
+Vvo Wmxl 326652289 17:43:36
+[35m 
+8. Drawing the binary tree [0m
+                    -
+          326652289
+                    -
+258186307
+                                        -
+                              197775800
+                                        -
+                    145409657
+                              -
+          101110100
+                                        -
+                              64866018
+                                        -
+                    36666300
+                                                  -
+                                        16533168
+                                                  -
+                              4455511
+                                                  -
+                                        422218
+                                                  -[35m 
+
+9.1. Deleting nodes [0m
+Successfully deleted 101110100
+Successfully deleted 4455511
+Successfully deleted 258186307
+Failed to delete 55555
+[35m 
+
+9.2. Printing binary tree [0m
+Qxoyoogl Qxoyoogl 422218 17:43:36
+Sqdsb Pkdrs 16533168 17:43:36
+Iihxsknx Vvo 36666300 17:43:36
+Pkdrs Ilgl 64866018 17:43:36
+Hnveig Xnmyi 145409657 17:43:36
+Ypuwquch Udwfejddo 197775800 17:43:36
+Vvo Wmxl 326652289 17:43:36
